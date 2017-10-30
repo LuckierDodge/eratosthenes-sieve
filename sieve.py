@@ -12,4 +12,13 @@ def check_value(some_value):
     return y > 1 
 
 n = inputFunction()
+print("Finding all prime numbers smaller than " + n + "...")
+
+int_list = range(2,int(n)+1)
+mark_list = list()
+
 print(n)
+
+for i in range(2,int(n)):
+    for j in range(i,int(n)):
+        print(j)

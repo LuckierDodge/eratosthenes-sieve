@@ -29,7 +29,10 @@ def runSieve(n):
     return prime_list
 
 ########### Main Wrapper ############
+print("\033c")
 n = inputFunction()
 print("Finding all prime numbers smaller than or equal to " + str(n) + "...")
 final_list = runSieve(n)
-print(final_list)
+print_counter = 0
+for i in final_list:
+    print(i)

@@ -36,3 +36,4 @@ final_list = runSieve(n)
 print_counter = 0
 for i in final_list:
     print(i)
+print("Number of primes between 2 and " + str(n) + ": " + str(len(final_list)))

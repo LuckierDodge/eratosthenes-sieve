@@ -1,12 +1,11 @@
 # eratosthenes-sieve
 
-Simple test project for an implementation of the Sieve of Eratosthenes.
+Simple test project for an implementation of the Sieve of Eratosthenes in Python3.
 
 ## Usage
 
 Simply clone the repo and run
-`python sieve.py`
-on any system with python version 2.7+
+`python3 sieve.py`
 
 # Looking for More?
 
